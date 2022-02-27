@@ -363,7 +363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notesParent: {fileID: 7669803814111213054}
-  jellyfishesParent: {fileID: 0}
+  jellyfishesParent: {fileID: 995968063903960683}
   jellyfishesTarget: {fileID: 4084023585842846947}
   jellyfishPrefab: {fileID: 4601904580864539994, guid: 7a7b67dfd1448eb45a6c6b6fb8193864, type: 3}
 --- !u!1 &5725044759310284114
