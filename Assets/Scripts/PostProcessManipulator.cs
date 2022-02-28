@@ -11,8 +11,8 @@ public class PostProcessManipulator : MonoBehaviour
 
     public float JitterAmount { get => jitterAmount; set => jitterAmount = value; }
 
-    private float blockAmount;
-    public float BlockAmount { get => blockAmount; set => blockAmount = value; }
+    private float driftAmount;
+    public float DriftAmount { get => driftAmount; set => driftAmount = value; }
 
     private Volume postprocess;
     private Glitch glitch;
@@ -37,6 +37,6 @@ public class PostProcessManipulator : MonoBehaviour
     void FixedUpdate()
     {
         glitch.jitter.value = jitterAmount;
-        glitch.shake.value = blockAmount;
+        glitch.drift.value = driftAmount;
     }
 }

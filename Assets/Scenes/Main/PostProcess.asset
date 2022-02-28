@@ -85,7 +85,7 @@ MonoBehaviour:
       m_NumAlphaKeys: 2
   fillOpacity:
     m_OverrideState: 1
-    m_Value: 0.582
+    m_Value: 0.756
     min: 0
     max: 1
   ditherType:
@@ -332,7 +332,7 @@ MonoBehaviour:
     max: 1
   drift:
     m_OverrideState: 1
-    m_Value: 0.049
+    m_Value: 0
     min: 0
     max: 1
   jitter:
@@ -347,7 +347,7 @@ MonoBehaviour:
     max: 1
   shake:
     m_OverrideState: 1
-    m_Value: 0.011
+    m_Value: 0
     min: 0
     max: 1
 --- !u!114 &5193607582109324751

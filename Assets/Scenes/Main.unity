@@ -7540,7 +7540,7 @@ MonoBehaviour:
   _workInEditor: 1
   _localHostMode: 1
   _localHost: 127.0.0.1
-  _localPort: 7000
+  _localPort: 8000
 --- !u!4 &1419737501
 Transform:
   m_ObjectHideFlags: 0
@@ -8354,11 +8354,11 @@ MonoBehaviour:
       data:
         Enabled: 1
         Target: {fileID: 1926064300}
-        PropertyName: BlockAmount
+        PropertyName: DriftAmount
         _propertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-        Value0: 0.2
-        Value1: 1
+        Value0: 0
+        Value1: 0.3
 --- !u!1 &1941587911
 GameObject:
   m_ObjectHideFlags: 0
@@ -8627,6 +8627,27 @@ MonoBehaviour:
   _rotation: 0
   _scale: 1
   _filter: 1
+--- !u!1 &2078871987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5725044759205200871, guid: 16246932c5295fa4fbe3efebfc60560e, type: 3}
+  m_PrefabInstance: {fileID: 5725044759071090539}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2078871990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078871987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6635cd7802bea634eb313f68921fe838, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mandlebrot_mat: {fileID: 2100000, guid: 987b6828c8aa1414fadb7ca7d24e96f9, type: 2}
+  pos: {x: 0.2516803, y: 0}
+  scale: 0.0029631862
+  angle: 0
 --- !u!4 &2149386034991762763
 Transform:
   m_ObjectHideFlags: 0
